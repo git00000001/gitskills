@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible">
+		<link rel="stylesheet" href="css/app.css" />
+		<title>px转换rem</title>
+        <style>
+        	*{
+        		color: red;
+        	}
+        </style>
+	</head>
+     
+	<body>
+		<div>
+			<textarea class="content" style="width: 50rem;height:37.5rem;padding: 20px;" placeholder="请输入待转换文本">box-shadow: 20px 30px 0.3125rem rgb(221, 221, 221);</textarea>
+			<br />
+			<button type="button" onclick="changepx()" style="">px转rem</button>
+			<button type="button" onclick="changergb()" style="">rgb转#xxx</button>
+			<button type="button" onclick="changerem()" style="">rem转px</button>
+			<p style="color: red;">注意："没事别用这个字符串"为关键字，若文件里有该字符串，则会被转换成px</p>
+		</div>
+    <script type="text/javascript" src="js/app.js" ></script>
+	</body>
+
+</html>
